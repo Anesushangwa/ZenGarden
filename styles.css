@@ -6,11 +6,11 @@ html {
 body {
   font: 85% ariel, sans-serif;
   line-height: 1.88889;
-  color: #333530;
+  color: #b5c979;
   margin: 0 30px;
   padding: 0;
-  background: rgb(238, 174, 202);
-  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(173, 233, 148) 100%);
+  background: rgb(226, 139, 178);
+  background: radial-gradient(circle, rgb(174, 168, 250) 0%, rgb(173, 233, 148) 100%);
 }
 
 .page-wrapper {
