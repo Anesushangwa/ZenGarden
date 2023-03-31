@@ -161,11 +161,11 @@ footer a:link, footer a:visited {
 }
 
 .sidebar li a:link {
-  color: red;
+  color: rgb(255, 102, 102);
 }
 
 .sidebar li a:visited {
-  color: red;
+  color: rgb(255, 102, 102);
 }
 
 .extra1 {
