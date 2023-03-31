@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   margin: 0;
   padding: 0;
@@ -7,7 +8,6 @@ body {
   font: 75% georgia, sans-serif;
   line-height: 1.88889;
   color: #555753;
-  margin: 0;
   padding: 0;
   background: rgb(238, 174, 202);
   background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(173, 233, 148) 100%);
@@ -17,9 +17,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border-radius: 5px;
-  padding: 0 175px 0 110px;
-  margin: 0;
-  position: relative;
+  padding: 26px;
 }
 
 p {
@@ -56,7 +54,6 @@ abbr {
 }
 
 .intro {
-  max-width: 470px;
   width: 100%;
 }
 
@@ -115,11 +112,7 @@ footer a:link, footer a:visited {
 }
 
 .sidebar .wrapper {
-  font: 10px verdana, sans-serif;
-  background-color: grey;
-  padding: 10px;
-  margin-top: 150px;
-  width: 130px;
+  margin-top: 100px;
 }
 
 .sidebar h3.select {
@@ -172,6 +165,29 @@ footer a:link, footer a:visited {
 
 .sidebar li a:visited {
   color: red;
+}
+
+.extra1 {
+  background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 148px;
+  height:  110px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar .wrapper {
+    display: none;
+  }
+  body {
+    font: 75% georgia, sans-serif;
+    line-height: 1.88889;
+    color: #555753;
+    padding: 0;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(173, 233, 148) 100%);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
