@@ -32,6 +32,13 @@ h3 {
   color: rgb(21, 181, 114);
 }
 
+h2 {
+  color: white;
+  font: bold 2.3em Georgia, sans-serif;
+  margin-top: auto;
+ 
+}
+
 a:link {
   font-weight: bold;
   text-decoration: none;
