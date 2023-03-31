@@ -4,13 +4,14 @@ html {
 }
 
 body {
-  font: 75% georgia, sans-serif;
+  font: 85% ariel, sans-serif;
   line-height: 1.88889;
-  color: #555753;
-  margin: 0 30px;
+  color: #b5c979;
+  margin: 0 70px;
+
   padding: 0;
-  background: rgb(238, 174, 202);
-  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(173, 233, 148) 100%);
+  background: rgb(226, 139, 178);
+  background: radial-gradient(circle, rgb(174, 168, 250) 0%, rgb(173, 233, 148) 100%);
 }
 
 .page-wrapper {
@@ -22,20 +23,29 @@ body {
 
 p {
   margin-top: 0;
+  margin-right: 10%;
+  margin-left: 10%;
   text-align: justify;
 }
 
 h3 {
-  font: italic normal 1.4em georgia, sans-serif;
+  font: italic normal 2em 'Trebuchet MS', sans-serif;
   letter-spacing: 1px;
   margin-bottom: 0;
-  color: red;
+  color: rgb(21, 181, 114);
+}
+
+h2 {
+  color: white;
+  font: bold 2.3em Georgia, sans-serif;
+  margin-top: auto;
+ 
 }
 
 a:link {
   font-weight: bold;
   text-decoration: none;
-  color: #B7A5DF;
+  color: #cfb9ff;
 }
 
 a:visited {
@@ -46,7 +56,7 @@ a:visited {
 
 a:hover, a:focus, a:active {
   text-decoration: underline;
-  color: #9685BA;
+  color: #d3c6f0;
 }
 
 abbr {
@@ -161,11 +171,11 @@ footer a:link, footer a:visited {
 }
 
 .sidebar li a:link {
-  color: red;
+  color: rgb(255, 135, 135);
 }
 
 .sidebar li a:visited {
-  color: red;
+  color: rgb(255, 102, 102);
 }
 
 .extra1 {
