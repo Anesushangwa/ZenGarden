@@ -42,7 +42,7 @@ h2 {
 a:link {
   font-weight: bold;
   text-decoration: none;
-  color: #B7A5DF;
+  color: #cfb9ff;
 }
 
 a:visited {
@@ -53,7 +53,7 @@ a:visited {
 
 a:hover, a:focus, a:active {
   text-decoration: underline;
-  color: #9685BA;
+  color: #d3c6f0;
 }
 
 abbr {
