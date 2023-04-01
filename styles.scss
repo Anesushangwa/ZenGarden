@@ -16,7 +16,7 @@ html {
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-	color: #555753; 
+	color: #b5c979; 
 	// background: #000 url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
 	margin:0  30px;
 	padding: 0;
@@ -38,25 +38,36 @@ p {
 
 	
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: red;
+	font: italic normal 2em 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: rgb(21,181,114);
 	}
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
-	}
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #D4CDDC;
-	}
-a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: #9685BA;
-	}
+
+	h2 {
+		color: white;
+		font: bold 2.3em Georgia, sans-serif;
+		margin-top:auto;
+	  
+	  }
+
+	
+	  a:link {
+		font-weight: bold;
+		text-decoration: none;
+		color: #cfb9ff;
+	  }
+	  
+	  a:visited {
+		font-weight: bold;
+		text-decoration: none;
+		color: #D4CDDC;
+	  }
+	  
+	  a:hover, a:focus, a:active {
+		text-decoration: underline;
+		color:#d3c6f0;
+	  }
 abbr {
 	border-bottom: none;
 	}
@@ -149,7 +160,7 @@ footer a:link, footer a:visited {
 		display: flex;
 		justify-content: center;
 		background-color: #0009;
-		box-shadow: 2px 1px  #ccc;
+		box-shadow: 2px 1px #ccc;
 		}
 
 
